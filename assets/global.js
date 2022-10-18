@@ -17,7 +17,6 @@ await Collection.find({
  
 });
 
-console.log("Loaded?");
 
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');
