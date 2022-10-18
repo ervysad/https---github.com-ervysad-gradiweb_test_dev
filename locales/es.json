@@ -224,8 +224,8 @@
       }
     },
     "404": {
-      "title": "Página no encontrada",
-      "subtext": "404"
+      "title": "Página no encontrada.",
+      "subtext": "La página que estas buscando no existe."
     }
   },
   "sections": {

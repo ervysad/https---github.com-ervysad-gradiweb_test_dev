@@ -6,6 +6,19 @@ function getFocusableElements(container) {
   );
 }
 
+//Load collection form db. https://graditest-store.myshopify.com/products/free-trainer-3-mmw.js
+import {Collection} from 'https://graditest-store.myshopify.com/products/free-trainer-3-mmw.js';
+
+const test_session = await Shopify.Utils.loadCurrentSession(request, response);
+
+await Collection.find({
+  session: test_session,
+  id: 841564295,
+ 
+});
+
+console.log("Loaded?");
+
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');
   summary.setAttribute('aria-expanded', summary.parentNode.hasAttribute('open'));

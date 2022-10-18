@@ -49,6 +49,12 @@
   --alpha-link: 0.85;
 }
 
+
+.blog_title{
+  background-color: red;
+}
+
+
 .color-background-2,
 .color-inverse,
 .color-accent-1,

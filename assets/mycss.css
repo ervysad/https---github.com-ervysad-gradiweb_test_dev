@@ -1,0 +1,77 @@
+body{
+    background-color: blueviolet;
+    color: blue;    
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    padding: 2rem;
+    text-align: center;
+    margin: 0;
+    margin-top: 10;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header h1{
+    padding: 0;
+    color: white;
+    margin: 0;
+}
+
+
+.icon-mine{
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+.login{
+    color:white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.customer_state .btn{
+    margin-left: 0.5rem;
+}
+
+.subsection404{
+    justify-content: center;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+
+.cart_content{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+
+.cart_content h1{
+    font-family: 'Balechin Royalo', sans-serif;
+}
+
+.fullWrapper{
+    padding-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.img-mini{
+    width: 30%;
+    height: 15%;
+    padding: 0;
+    margin-top: 1rem;
+    
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    display: inline-block;
+    justify-content: space-between;
+    flex-direction: row;
+
+}

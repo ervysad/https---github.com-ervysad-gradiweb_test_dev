@@ -59,3 +59,29 @@
     padding-bottom: 82.5rem;
   }
 }
+
+.blogtitle{
+  
+  text-align: center;
+  font-family: 'Montserrat','serif';
+}
+
+.blogcard{
+  background-size: cover;
+  justify-content: center;
+  border: solid black ;
+  height: 20rem;
+
+}
+
+.card{
+  margin-bottom: 1rem;
+}
+
+.pagination{
+
+}
+.navbuttons{
+ text-align: center;
+ padding-bottom: 1rem;
+}
